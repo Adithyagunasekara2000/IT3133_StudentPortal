@@ -4,7 +4,12 @@ export default function Profle() {
   return (
     <div>
       <table border='1'>
-        <tr aria-colspan={7}><img</tr>
+        <tr>
+            <td
+
+
+        </tr>
+        
       </table>
     </div>
   )
