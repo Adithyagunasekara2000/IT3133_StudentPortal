@@ -25,6 +25,19 @@
 .profile{
     width: 75%;
 }
+.font-size-controls {
+    margin-bottom: 10px;
+  }
+
+  .font-size-controls h6 {
+    display: inline-block;
+    margin-right: 10px; 
+    
+  }
+  
+  .font-size-controls .buttons button {
+    margin-right: 5px; 
+  
 .font-small {
     font-size: 16px;
   }
