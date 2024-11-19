@@ -15,11 +15,11 @@ export default function Studentable(props) {
   return (
     <div className={`font-${fontSize}`}>
     <div>
-      <h5> Font Size <br/>
+      <h6> Font Size 
       <button onClick={() => handleFontSizeChange('small')}>S</button>
       <button onClick={() => handleFontSizeChange('medium')}>M</button>
       <button onClick={() => handleFontSizeChange('large')}>L</button>
-    </h5>
+    </h6>
     </div>
     <table border='1'>
         <tr>
