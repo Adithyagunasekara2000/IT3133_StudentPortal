@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Studentable from './components/Studentable';
+import {students} from './data/StudentsDb'
 
 function App() {
   return (
     <div>
-   <Studentable/>
+   <Studentable students={students}/>
+   
     </div>
   );
 }
