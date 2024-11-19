@@ -16,7 +16,7 @@ export default function Studentable(props) {
     <div className={`font-${fontSize}`}>
       <div className="font-size-controls">
     <div>
-      <h6> Font Size <
+      <h6> Font Size  </h6>
       <button onClick={() => handleFontSizeChange('small')}>S</button>
       <button onClick={() => handleFontSizeChange('medium')}>M</button>
       <button onClick={() => handleFontSizeChange('large')}>L</button>
